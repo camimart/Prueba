@@ -1,0 +1,266 @@
+                    *¨ {
+                        margin: 20;
+                        padding: 10;
+                        box-sizing: border-box;
+                    }
+                    
+                    body {
+                        background-color: rgb(127, 223, 224);
+                    }
+                    
+                    .contenedor {
+                        padding: 20px;
+                        margin: 20px auto;
+                        width: 90%;
+                        display: grid;
+                        gap: 1rem;
+                        grid-template-areas: "header header header" "main main main" "contenedor contenedor contenedor" "footer footer footer"
+                    }
+                    
+                    h1 {
+                        text-align: center;
+                        font-family: 'PT Serif', serif;
+                        image-rendering: auto;
+                        font-size: 4rem;
+                        font-weight: bold;
+                    }
+                    
+                    .buscar {
+                        font-size: 30px;
+                        margin: 25px;
+                        width: 10%;
+                    }
+                    
+                    .photos {
+                        width: 100%;
+                        height: 280px auto;
+                        margin: 3rem auto;
+                        padding: 0.5rem;
+                        display: flex;
+                        flex-direction: row;
+                        flex-wrap: nowrap;
+                        justify-content: space-between;
+                        align-items: center;
+                        box-sizing: border-box;
+                        justify-items: center;
+                    }
+                    
+                    .inicio {
+                        background-color: transparent;
+                        list-style-type: none;
+                        width: 20%;
+                        margin: 5px;
+                        text-align: center;
+                        font-size: 11px;
+                    }
+                    
+                    .inicio li {
+                        display: inline-block;
+                        text-align: center;
+                    }
+                    
+                    .inicio li a {
+                        color: white;
+                        display: inline-block;
+                        text-align: center;
+                    }
+                    
+                    .carrito {
+                        background-color: black;
+                        list-style-type: none;
+                        width: 15%;
+                        margin: 12px;
+                        text-align: center;
+                    }
+                    
+                    .carrito li {
+                        display: inline-block;
+                        text-align: center;
+                    }
+                    
+                    .carrito li a {
+                        text-decoration: none;
+                        color: white;
+                        display: inline-block;
+                        padding: 12px;
+                    }
+                    
+                    .carrito li a:hover {
+                        color: rgb(180, 179, 179);
+                        background-color: black;
+                    }
+                    
+                    ul {
+                        display: block;
+                        font-weight: bold;
+                        list-style-type: disc;
+                    }
+                    
+                    h2 {
+                        font-weight: bold;
+                        text-transform: uppercase;
+                    }
+                    
+                    .clothes {
+                        background-color: black;
+                        list-style-type: none;
+                        margin: 20px auto;
+                        width: 70%;
+                        text-align: center;
+                        border: solid 1px white;
+                        border-left: 1px black;
+                        border-right: 1px black;
+                        font-size: 18px;
+                        word-spacing: 15px;
+                    }
+                    
+                    .clothes ul {
+                        list-style: none;
+                    }
+                    
+                    .menú li {
+                        position: relative;
+                        display: inline-block;
+                        text-align: left;
+                    }
+                    
+                    .menú li a {
+                        display: block;
+                        padding: 2px 2px;
+                        color: white;
+                        text-decoration: none;
+                    }
+                    
+                    .menú li a:hover {
+                        color: transparent;
+                        transition: all .0s;
+                    }
+                    
+                    .submenu {
+                        position: absolute;
+                        background-color: black;
+                        width: 190%;
+                        visibility: hidden;
+                        opacity: 0;
+                        text-align: start;
+                        font-size: 15px;
+                    }
+                    
+                    .submenu li a {
+                        display: block;
+                        padding: 10px;
+                        color: white;
+                    }
+                    
+                    .menú li:hover .submenu {
+                        visibility: visible;
+                        opacity: 1;
+                    }
+                    
+                    .clothes1 {
+                        background-color: black;
+                        list-style-type: none;
+                        margin: 20px auto;
+                        width: 67%;
+                        text-align: center;
+                        font-size: 25px;
+                    }
+                    
+                    .clothes1 li {
+                        display: inline-block;
+                        text-align: center;
+                    }
+                    
+                    .clothes1 li a {
+                        text-decoration: none;
+                        color: white;
+                        display: inline-block;
+                        padding: 15px;
+                    }
+                    
+                    .clothes1 li a:hover {
+                        color: white;
+                        background-color: black;
+                        font-weight: bold;
+                    }
+                    
+                    img {
+                        padding: 30px;
+                    }
+                    
+                    h3 {
+                        font-family: 'Roboto Slab', serif;
+                        text-align: center;
+                        font-size: 25px;
+                    }
+                    
+                    .clothes2 {
+                        color: white;
+                        font-size: 17px;
+                        font-weight: normal;
+                        text-align: center;
+                    }
+                    
+                    h4 {
+                        font-family: 'Roboto Slab', serif;
+                        text-align: center;
+                        font-size: 25px;
+                    }
+                    
+                    .one {
+                        font-family: 'Inter', sans-serif;
+                        font-size: 18px;
+                        font-weight: normal;
+                        letter-spacing: 1px;
+                        word-spacing: 2px;
+                        margin: 30px auto;
+                        padding: 10px;
+                        line-height: 1.6;
+                        box-sizing: border-box;
+                    }
+                    
+                    .one {
+                        font-family: 'Inter', sans-serif;
+                        font-size: 18px;
+                        font-weight: normal;
+                        letter-spacing: 1px;
+                        word-spacing: 2px;
+                        margin: 30px auto;
+                        padding: 10px;
+                        line-height: 1.6;
+                        box-sizing: border-box;
+                    }
+                    
+                    h5 {
+                        font-family: 'Roboto Slab', serif;
+                        text-align: center;
+                        font-size: 25px;
+                    }
+                    
+                    .one {
+                        font-family: 'Inter', sans-serif;
+                        font-size: 18px;
+                        font-weight: normal;
+                        letter-spacing: 1px;
+                        word-spacing: 2px;
+                        margin: 30px auto;
+                        padding: 10px;
+                        line-height: 1.6;
+                        box-sizing: border-box;
+                    }
+                    
+                    h6 {
+                        font-family: 'Inter', sans-serif;
+                        font-weight: bold;
+                        font-size: 17px;
+                        text-align: center;
+                    }
+                    
+                    @media screen and (min-width: 480px) {
+                        body {
+                            background-color: rgb(112, 216, 206);
+                        }
+                        h1 {
+                            font-size: 3rem;
+                        }
+                    }
